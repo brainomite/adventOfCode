@@ -1,9 +1,6 @@
 const fs = require("fs");
-const { get } = require("http");
 const input = fs.readFileSync("day05/input.txt", "utf8").split("\n");
-// input.pop(); // remove empty line at end of file
 
-// const seeds = [];
 const maps = {
   soils: [],
   fertilizers: [],
